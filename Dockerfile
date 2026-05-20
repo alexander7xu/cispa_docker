@@ -5,4 +5,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         p7zip-full \
         tmux \
         curl \
-    && rm -rf /var/lib/apt/lists/*
+        git \
+    && rm -rf /var/lib/apt/lists/* \
+    && rm /cuda-keyring_1.1-1_all.deb
