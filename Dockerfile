@@ -2,6 +2,7 @@ FROM nvidia/cuda:12.9.2-cudnn-runtime-ubuntu24.04
 
 RUN apt update && apt install -y --no-install-recommends \
         openssh-server \
+        rsync \
         p7zip-full \
         tmux \
         curl \
